@@ -7,7 +7,6 @@
 #    for line in f:
 #        line = line.rstrip("\n")
 #     hit = "  <-- SUSPICIOUS" if pat.search(line) else ""
-/
 
 
 

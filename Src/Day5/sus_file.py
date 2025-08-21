@@ -10,12 +10,11 @@ with open("logs.txt", "r") as infile:
             with open("failed_password.txt", "a") as outfile:
                 outfile.write(log_line1 + "\n")
 
-
-for line2 in infile:
-    if pat2.search(line2):
-        log_line2 = line2.rstrip("\n")
-        with open("other_attack.txt", "a") as P_att:
-            P_att.write(log_line2 + "\n")
+    for line2 in infile:
+        if pat2.search(line2):
+            log_line2 = line2.rstrip("\n")
+            with open("other_attack.txt", "a") as o_att:
+                o_att.write(log_line2 + "\n")
 
 
 
