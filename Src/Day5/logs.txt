@@ -1,4 +1,4 @@
-Aug 21 08:31:44 web01 sshd[1234]: Failed password for postgres from 172.175.206.17 port 46411 ssh2  <-- SUSPICIOUS
+Aug 21 08:31:44 web01 sshd[1234]: Failed password for postgres from 172.175.206.17 port 46411 ssh2
 2025-08-21T08:31:45Z suricata: [2] SURICATA STREAM 3way handshake with invalid ack SRC=15.119.217.134 DST=64.161.69.238 SPT=29466 DPT=443  <-- SUSPICIOUS
 Aug 21 08:31:45 web01 sshd[1234]: Failed password for root from 79.242.184.203 port 39779 ssh2  <-- SUSPICIOUS
 2025-08-21T08:31:45Z suricata: [2] ET ATTACK_RESPONSE id Command Execution SRC=101.194.64.117 DST=74.17.86.153 SPT=4935 DPT=3389  <-- SUSPICIOUS
